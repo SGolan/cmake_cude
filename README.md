@@ -1,2 +1,2 @@
 # cmake_cude
-basic CUDA cmake examples/
+basic CUDA cmake examples/checks
