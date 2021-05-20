@@ -1,2 +1,2 @@
 # cmake_cude
-basic CUDA cmake test
+basic CUDA cmake examples/
