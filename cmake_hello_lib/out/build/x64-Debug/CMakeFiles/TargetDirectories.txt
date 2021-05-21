@@ -1,0 +1,6 @@
+C:/Data/SideProjects/cmake_basic_example2/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Data/SideProjects/cmake_basic_example2/out/build/x64-Debug/CMakeFiles/main.dir
+C:/Data/SideProjects/cmake_basic_example2/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Data/SideProjects/cmake_basic_example2/out/build/x64-Debug/Lib/CMakeFiles/lib.dir
+C:/Data/SideProjects/cmake_basic_example2/out/build/x64-Debug/Lib/CMakeFiles/edit_cache.dir
+C:/Data/SideProjects/cmake_basic_example2/out/build/x64-Debug/Lib/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,8 @@
+# ninja log v5
+3	63	6432271527235427	helloqt_autogen/timestamp	4a425c9343ac0691
+63	1089	6432271537468839	CMakeFiles/helloqt.dir/helloqt_autogen/mocs_compilation.cpp.obj	a83511d57d65510a
+137	917	6432256226160388	CMakeFiles/helloqt.dir/main.cpp.obj	1e707a1bfe605d8c
+140	927	6432256226270094	CMakeFiles/helloqt.dir/mainwindow.cpp.obj	1e320175c83c0d17
+1089	1241	6432271538646302	helloqt.exe	8a59fa19f3928a76
+6	854	6432272129879673	CMakeFiles/helloqt.dir/mainwindow.cpp.obj	1e320175c83c0d17
+854	1255	6432272133107010	helloqt.exe	8a59fa19f3928a76

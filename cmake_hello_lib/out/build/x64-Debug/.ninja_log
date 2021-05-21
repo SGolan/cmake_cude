@@ -1,0 +1,6 @@
+# ninja log v5
+0	180	6431152021436222	CMakeFiles/main.dir/X.cpp.obj	6a83be4881274f6a
+4	190	6431152021525994	Lib/CMakeFiles/lib.dir/CLib.cpp.obj	a823089f01f856e8
+190	237	6431152021964811	Lib/lib.lib	84b645af043391e5
+2	388	6431152023540876	CMakeFiles/main.dir/main.cpp.obj	6136a464d0dfb2d1
+389	618	6431152025744163	main.exe	42f7cfe89c137eed
