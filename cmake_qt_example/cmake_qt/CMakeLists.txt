@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(helloqt VERSION 0.1 LANGUAGES CXX)
+project(cmake_qt LANGUAGES CXX)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
@@ -35,30 +35,19 @@ set(PROJECT_SOURCES
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
-    qt_add_executable(helloqt
-        MANUAL_FINALIZATION
+    qt_add_executable(cmake_qt
         ${PROJECT_SOURCES}
     )
 else()
     if(ANDROID)
-        add_library(helloqt SHARED
+        add_library(cmake_qt SHARED
             ${PROJECT_SOURCES}
         )
     else()
-        add_executable(helloqt
+        add_executable(cmake_qt
             ${PROJECT_SOURCES}
         )
     endif()
 endif()
 
-target_link_libraries(helloqt PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
-
-set_target_properties(helloqt PROPERTIES
-    MACOSX_BUNDLE_GUI_IDENTIFIER my.example.com
-    MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
-    MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
-)
-
-if(QT_VERSION_MAJOR EQUAL 6)
-    qt_finalize_executable(helloqt)
-endif()
+target_link_libraries(cmake_qt PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
