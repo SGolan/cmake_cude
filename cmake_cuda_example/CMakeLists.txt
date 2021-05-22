@@ -8,7 +8,7 @@ message(STATUS "-vv- CMakeList.txt @ cmake_cuda_example" )
 message(STATUS "-vv------------------------------------------------------ " )
 
 # open cpp project
-project(libcuda LANGUAGES CXX CUDA)
+project(cmake_cuda LANGUAGES CXX CUDA)
 
 # build the exe-target "cmake_cuda_main.exe"
 add_executable(cmake_cuda main.cpp)
