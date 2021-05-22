@@ -38,9 +38,11 @@ add_library(libcuda ${sources})
 target_include_directories( libcuda PUBLIC  "${CMAKE_CURRENT_SOURCE_DIR}/include" 
                                     PUBLIC "${CUDAToolkit_INCLUDE_DIRS}"    )
                                    # PUBLIC "${CUDAToolkit_INCLUDE_DIRS}/../samples/common/inc"  )
-if(LINUX) 
+if(UNIX) 
+    message(STATUS "-vv- helper_cuda.h : /usr/local/cuda-${CUDAToolkit_VERSION_MAJOR}.${CUDAToolkit_VERSION_MINOR}/samples/common/inc")
     target_include_directories( libcuda PUBLIC "/usr/local/cuda-${CUDAToolkit_VERSION_MAJOR}.${CUDAToolkit_VERSION_MINOR}/samples/common/inc")
 else()
+    message(STATUS "-vv- helper_cuda.h : C:/ProgramData/NVIDIA Corporation/CUDA Samples/v${CUDAToolkit_VERSION_MAJOR}.${CUDAToolkit_VERSION_MINOR}/common/inc")
     target_include_directories( libcuda PUBLIC "C:/ProgramData/NVIDIA Corporation/CUDA Samples/v${CUDAToolkit_VERSION_MAJOR}.${CUDAToolkit_VERSION_MINOR}/common/inc")
 endif()
 
